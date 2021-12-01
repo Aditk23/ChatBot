@@ -2,4 +2,5 @@ Create Env - conda create -n ChatBot python==3.7
 Activate Env - conda activate ChatBot
 Install Rasa - pip install rasa
 Initiating Rasa - rasa init
-
+Activate Chatbot - rasa shell
+Working - Finds the intent from nlu.yml then finds the action corresponding to intent in stories.yml then finfd text from domain.yml
