@@ -8,7 +8,10 @@ intents:
   - mood_great
   - mood_unhappy
   - bot_challenge
-
+  - corona_intro
+  - corona_spread
+  - corona_varients
+  - corona_vaccine
 responses:
   utter_greet:
   - text: "Hey! How are you?"
@@ -28,6 +31,41 @@ responses:
 
   utter_iamabot:
   - text: "I am a bot, powered by Rasa."
+
+  utter_corona_intro:
+  - text: "Coronaviruses are a type of virus. 
+          There are many different kinds, and  
+          some cause disease. A coronavirus identified 
+          in 2019, SARS-CoV-2, has caused a pandemic of 
+          respiratory illness, called COVID-19."
+
+  utter_corona_spread:
+  - text: "The virus primarily spreads between people 
+          through close contact and via aerosols and 
+          respiratory droplets that are exhaled when 
+          talking, breathing, or otherwise exhaling, 
+          as well as those produced from coughs or 
+          sneezes."
+
+   utter_corona_varients:
+  - text: "All viruses, including SARS-CoV-2, the virus 
+          that causes COVID-19, change over time. Most 
+          changes have little to no impact on the virus’ 
+          properties. However, some changes may affect 
+          the virus’s properties, such as how easily it 
+          spreads, the associated disease severity, or 
+          the performance of vaccines, therapeutic 
+          medicines, diagnostic tools, or other public 
+          health and social measures."
+
+     utter_ccorona_vaccine:
+  - text: "Equitable access to safe and effective 
+          vaccines is critical to ending the COVID-19 
+          pandemic, so it is hugely encouraging to see 
+          so many vaccines proving and going into 
+          development. WHO is working tirelessly with 
+          partners to develop, manufacture and deploy 
+          safe and effective vaccines. "
 
 session_config:
   session_expiration_time: 60
