@@ -90,3 +90,30 @@ nlu:
     - are you a human?
     - am I talking to a bot?
     - am I talking to a human?
+
+- intent: corona_intro
+  examples: |
+    - what is corona
+    - what is covid
+    - what is covid-19
+    - tell me about corona virus
+    - what is corona virus
+
+- intent: corona_vaccine
+  examples: |
+    - what are covid vaccines
+    - corona treatment
+    - are vaccines safe
+    - how many doses required
+  
+- intent: corona_varients
+  examples: |
+    - different types of varients
+    - corona types
+    - covid-19 varients
+
+- intent: corona_spread
+  examples: |
+    - what precautions to take for corona
+    - how does corona spreads
+    
