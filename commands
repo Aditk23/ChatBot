@@ -4,3 +4,4 @@ Install Rasa - pip install rasa
 Initiating Rasa - rasa init
 Activate Chatbot - rasa shell
 Working - Finds the intent from nlu.yml then finds the action corresponding to intent in stories.yml then finfd text from domain.yml
+train model - rasa train

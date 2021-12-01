@@ -48,4 +48,4 @@ stories:
 - story: what are corona vaccines
   steps:
   - intent: corona_vaccine
-  - action: utter_ccorona_vaccine
+  - action: utter_corona_vaccine

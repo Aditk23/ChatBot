@@ -47,7 +47,7 @@ responses:
           as well as those produced from coughs or 
           sneezes."
 
-   utter_corona_varients:
+  utter_corona_varients:
   - text: "All viruses, including SARS-CoV-2, the virus 
           that causes COVID-19, change over time. Most 
           changes have little to no impact on the virus’ 
@@ -58,7 +58,7 @@ responses:
           medicines, diagnostic tools, or other public 
           health and social measures."
 
-     utter_ccorona_vaccine:
+  utter_corona_vaccine:
   - text: "Equitable access to safe and effective 
           vaccines is critical to ending the COVID-19 
           pandemic, so it is hugely encouraging to see 
